@@ -1,0 +1,560 @@
+RPS, CPU Usage (%)
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'db', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'json', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'json', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'db', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'json', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'db', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+=====Running scenario {'language': 'go', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}=====
+Testing with 100 RPS for 60 seconds, targeting http://go-standard:8080/db, on container 6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7
+CPU usage at point 10.0s: 7.933791177944863
+CPU usage at point 15.0s: 7.979178557114228
+CPU usage at point 20.0s: 7.930679899497488
+CPU usage at point 25.0s: 7.894492846423212
+CPU usage at point 30.0s: 7.862373513243378
+CPU usage at point 35.0s: 7.801653629032258
+CPU usage at point 40.0s: 8.09092142142142
+CPU usage at point 45.0s: 8.022450100200402
+CPU usage at point 50.0s: 8.10972910634049
+Average CPU Usage: 7.958363361246416
+Testing with 200 RPS for 60 seconds, targeting http://go-standard:8080/db, on container 6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7
+CPU usage at point 10.0s: 14.992107893413776
+CPU usage at point 15.0s: 14.755150427350427
+CPU usage at point 20.0s: 15.829268142929037
+CPU usage at point 25.0s: 15.094797893681042
+CPU usage at point 30.0s: 15.6604880798005
+CPU usage at point 35.0s: 14.440139860139862
+CPU usage at point 40.0s: 14.536744589178358
+CPU usage at point 45.0s: 14.561251803607215
+CPU usage at point 50.0s: 15.081079475542108
+Average CPU Usage: 14.99455868507137
+Testing with 300 RPS for 60 seconds, targeting http://go-standard:8080/db, on container 6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7
+CPU usage at point 10.0s: 21.27389025125628
+CPU usage at point 15.0s: 22.198399798994974
+CPU usage at point 20.0s: 20.73475117794486
+CPU usage at point 25.0s: 21.708018381618384
+CPU usage at point 30.0s: 21.401399599599603
+CPU usage at point 35.0s: 21.0548557
+CPU usage at point 40.0s: 21.733480361627322
+CPU usage at point 45.0s: 23.691865427135678
+CPU usage at point 50.0s: 22.263752261306532
+Average CPU Usage: 21.784490328831517
+Testing with 400 RPS for 60 seconds, targeting http://go-standard:8080/db, on container 6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7
+CPU usage at point 10.0s: 99.15910095238095
+CPU usage at point 15.0s: 98.74229557702084
+CPU usage at point 20.0s: 97.94224136889784
+CPU usage at point 25.0s: 103.20448425316455
+CPU usage at point 30.0s: 104.68466035623409
+CPU usage at point 35.0s: 101.55209737373735
+CPU usage at point 40.0s: 100.81218787266297
+CPU usage at point 45.0s: 96.30397184810127
+CPU usage at point 50.0s: 102.4564599695586
+Average CPU Usage: 100.53972217463983
+Reached target CPU utilization with 400 RPS
+
+=====Running scenario {'language': 'java', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}=====
+Testing with 100 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 7.37111002004008
+CPU usage at point 15.0s: 7.056869334667333
+CPU usage at point 20.0s: 7.197857984031936
+CPU usage at point 25.0s: 7.065207292707293
+CPU usage at point 30.0s: 6.942608604302151
+CPU usage at point 35.0s: 7.283808673978067
+CPU usage at point 40.0s: 6.955667463876433
+CPU usage at point 45.0s: 6.995338908362543
+CPU usage at point 50.0s: 7.164481081081081
+Average CPU Usage: 7.114772151449657
+Testing with 200 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 14.039693006993007
+CPU usage at point 15.0s: 14.401943029087263
+CPU usage at point 20.0s: 14.398656312625253
+CPU usage at point 25.0s: 14.093441076769691
+CPU usage at point 30.0s: 14.166234337349398
+CPU usage at point 35.0s: 14.52487543597409
+CPU usage at point 40.0s: 13.94284311972181
+CPU usage at point 45.0s: 13.608173140289564
+CPU usage at point 50.0s: 14.19776215676485
+Average CPU Usage: 14.15262462395277
+Testing with 300 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 20.456673180458626
+CPU usage at point 15.0s: 19.772302963335008
+CPU usage at point 20.0s: 20.308873353293414
+CPU usage at point 25.0s: 20.677315218483177
+CPU usage at point 30.0s: 20.660429358717437
+CPU usage at point 35.0s: 19.71391510286001
+CPU usage at point 40.0s: 19.76991238095238
+CPU usage at point 45.0s: 20.63908642714571
+CPU usage at point 50.0s: 19.69058545816733
+Average CPU Usage: 20.18767704926812
+Testing with 400 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 25.910859510733896
+CPU usage at point 15.0s: 24.751738009950248
+CPU usage at point 20.0s: 25.139437593237197
+CPU usage at point 25.0s: 24.018244844844844
+CPU usage at point 30.0s: 24.72843024875622
+CPU usage at point 35.0s: 24.45633143712575
+CPU usage at point 40.0s: 23.853140685543963
+CPU usage at point 45.0s: 23.709953784860556
+CPU usage at point 50.0s: 25.12079196383727
+Average CPU Usage: 24.632103119876657
+Testing with 500 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 28.456743687374754
+CPU usage at point 15.0s: 28.767205829145727
+CPU usage at point 20.0s: 29.148307355864812
+CPU usage at point 25.0s: 27.379844003964322
+CPU usage at point 30.0s: 28.98051775236201
+CPU usage at point 35.0s: 28.222717471378793
+CPU usage at point 40.0s: 27.311027408143
+CPU usage at point 45.0s: 26.95887870967742
+CPU usage at point 50.0s: 28.797370649479426
+Average CPU Usage: 28.22473476304336
+Testing with 600 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 30.935812948207175
+CPU usage at point 15.0s: 30.750234131736526
+CPU usage at point 20.0s: 30.044122704837118
+CPU usage at point 25.0s: 31.654922183274913
+CPU usage at point 30.0s: 32.790516
+CPU usage at point 35.0s: 30.31511661691543
+CPU usage at point 40.0s: 29.824499455714992
+CPU usage at point 45.0s: 30.31964561229549
+CPU usage at point 50.0s: 30.99603384463137
+Average CPU Usage: 30.847878166401447
+Testing with 700 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 33.59569117063492
+CPU usage at point 15.0s: 33.50472548628429
+CPU usage at point 20.0s: 33.28280648055832
+CPU usage at point 25.0s: 31.982081091811416
+CPU usage at point 30.0s: 31.360158658115445
+CPU usage at point 35.0s: 32.732234786917736
+CPU usage at point 40.0s: 32.55132402565367
+CPU usage at point 45.0s: 33.59092895522387
+CPU usage at point 50.0s: 31.86839062811565
+Average CPU Usage: 32.718704587035035
+Testing with 800 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 36.70431590909091
+CPU usage at point 15.0s: 37.66212567432567
+CPU usage at point 20.0s: 35.49476800396235
+CPU usage at point 25.0s: 36.253970128585564
+CPU usage at point 30.0s: 35.302824314897855
+CPU usage at point 35.0s: 37.42939661523146
+CPU usage at point 40.0s: 36.173568321747766
+CPU usage at point 45.0s: 36.76423812842211
+CPU usage at point 50.0s: 37.09935164506481
+Average CPU Usage: 36.542728749036506
+Testing with 900 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 44.301915631262524
+CPU usage at point 15.0s: 42.987201305220886
+CPU usage at point 20.0s: 40.587996432111
+CPU usage at point 25.0s: 41.297044598612494
+CPU usage at point 30.0s: 41.08037987173162
+CPU usage at point 35.0s: 42.31761469265367
+CPU usage at point 40.0s: 40.85093776464796
+CPU usage at point 45.0s: 42.87974965243297
+CPU usage at point 50.0s: 41.43534220229198
+Average CPU Usage: 41.97090912788501
+Testing with 1000 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 49.04822623441397
+CPU usage at point 15.0s: 50.74687180261832
+CPU usage at point 20.0s: 52.22507040404041
+CPU usage at point 25.0s: 51.13341326683292
+CPU usage at point 30.0s: 51.45805476550681
+CPU usage at point 35.0s: 50.1859969138875
+CPU usage at point 40.0s: 50.9153003996004
+CPU usage at point 45.0s: 48.28939789156627
+CPU usage at point 50.0s: 48.895865534465536
+Average CPU Usage: 50.32202191254802
+Testing with 1100 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 50.77822639442231
+CPU usage at point 15.0s: 49.237420706819314
+CPU usage at point 20.0s: 51.582925136341096
+CPU usage at point 25.0s: 50.37721774913238
+CPU usage at point 30.0s: 51.00125905236907
+CPU usage at point 35.0s: 51.314824813895775
+CPU usage at point 40.0s: 52.50265786037167
+CPU usage at point 45.0s: 51.248743674698794
+CPU usage at point 50.0s: 50.93615630922693
+Average CPU Usage: 50.99771463303082
+Testing with 1200 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 50.585438245441104
+CPU usage at point 15.0s: 53.04695339613287
+CPU usage at point 20.0s: 53.168235513078464
+CPU usage at point 25.0s: 53.74219143426294
+CPU usage at point 30.0s: 52.663764130434785
+CPU usage at point 35.0s: 53.04770594108837
+CPU usage at point 40.0s: 54.27978220000001
+CPU usage at point 45.0s: 53.148283159463496
+CPU usage at point 50.0s: 51.97024784546805
+Average CPU Usage: 52.85028909615224
+Testing with 1300 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 53.607574764967836
+CPU usage at point 15.0s: 55.13181984205331
+CPU usage at point 20.0s: 54.57859802858551
+CPU usage at point 25.0s: 54.449394471865745
+CPU usage at point 30.0s: 56.35079201183433
+CPU usage at point 35.0s: 56.51342590420332
+CPU usage at point 40.0s: 56.37398478154147
+CPU usage at point 45.0s: 55.04274705882353
+CPU usage at point 50.0s: 55.61004216691069
+Average CPU Usage: 55.29537544786509
+Testing with 1400 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 56.23269876421156
+CPU usage at point 15.0s: 55.614374766813945
+CPU usage at point 20.0s: 57.127050248262165
+CPU usage at point 25.0s: 56.37085564278704
+CPU usage at point 30.0s: 56.319311536573395
+CPU usage at point 35.0s: 55.641610182896684
+CPU usage at point 40.0s: 55.92537069813176
+CPU usage at point 45.0s: 55.97867697628458
+CPU usage at point 50.0s: 55.48507512291052
+Average CPU Usage: 56.07722488209684
+Testing with 1500 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 62.38726375545851
+CPU usage at point 15.0s: 58.14550156555774
+CPU usage at point 20.0s: 57.75205149583129
+CPU usage at point 25.0s: 60.36514980620154
+CPU usage at point 30.0s: 61.1486942800789
+CPU usage at point 35.0s: 61.25955326192795
+CPU usage at point 40.0s: 61.79971120943952
+CPU usage at point 45.0s: 59.475663256271524
+CPU usage at point 50.0s: 58.49578188084688
+Average CPU Usage: 60.092152279068195
+Testing with 1600 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 62.893842188270085
+CPU usage at point 15.0s: 63.31546660127514
+CPU usage at point 20.0s: 62.83484190850959
+CPU usage at point 25.0s: 66.60499832512315
+CPU usage at point 30.0s: 62.52214240786241
+CPU usage at point 35.0s: 62.894034543670266
+CPU usage at point 40.0s: 62.292676256157634
+CPU usage at point 45.0s: 62.123558711566616
+CPU usage at point 50.0s: 61.68605653436592
+Average CPU Usage: 63.01862416408897
+Testing with 1700 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 66.11140952848724
+CPU usage at point 15.0s: 67.10919970178925
+CPU usage at point 20.0s: 65.79133735886107
+CPU usage at point 25.0s: 65.20206377525875
+CPU usage at point 30.0s: 65.67396941176472
+CPU usage at point 35.0s: 64.82173821218075
+CPU usage at point 40.0s: 66.27171527434503
+CPU usage at point 45.0s: 67.00496023680316
+CPU usage at point 50.0s: 66.30125708641975
+Average CPU Usage: 66.03196117621218
+Testing with 1800 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 68.36189524276605
+CPU usage at point 15.0s: 67.99153716249387
+CPU usage at point 20.0s: 69.68543538011696
+CPU usage at point 25.0s: 70.0897627498781
+CPU usage at point 30.0s: 71.06321590909091
+CPU usage at point 35.0s: 69.99390493096647
+CPU usage at point 40.0s: 68.95441880175352
+CPU usage at point 45.0s: 69.89648
+CPU usage at point 50.0s: 69.72497432894096
+Average CPU Usage: 69.5290693895563
+Testing with 1900 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 73.8136261682243
+CPU usage at point 15.0s: 74.13163001968503
+CPU usage at point 20.0s: 72.85555446123843
+CPU usage at point 25.0s: 73.63006243854474
+CPU usage at point 30.0s: 72.53948385214008
+CPU usage at point 35.0s: 73.76257119221412
+CPU usage at point 40.0s: 75.790508009828
+CPU usage at point 45.0s: 74.38456811023622
+CPU usage at point 50.0s: 73.370276011846
+Average CPU Usage: 73.80869780710633
+Testing with 2000 RPS for 60 seconds, targeting http://java-standard:8080/db, on container 8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930
+CPU usage at point 10.0s: 79.0812125248509
+CPU usage at point 15.0s: 77.63785445641527
+CPU usage at point 20.0s: 81.38924082041021
+CPU usage at point 25.0s: 78.17531972180825
+CPU usage at point 30.0s: 82.40476115537848
+CPU usage at point 35.0s: 80.46069920556108
+CPU usage at point 40.0s: 82.4229766156882
+CPU usage at point 45.0s: 78.46306921170054
+CPU usage at point 50.0s: 77.77979527400703
+Average CPU Usage: 79.75721433175778
+Reached target CPU utilization with 2000 RPS
+
+=====Running scenario {'language': 'java', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}=====
+Testing with 100 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 10.0280679943101
+CPU usage at point 15.0s: 9.58649971563981
+CPU usage at point 20.0s: 9.940979487179487
+CPU usage at point 25.0s: 9.641852636447734
+CPU usage at point 30.0s: 9.747420568720381
+CPU usage at point 35.0s: 10.063408082706767
+CPU usage at point 40.0s: 9.690540822179731
+CPU usage at point 45.0s: 9.887740813464236
+CPU usage at point 50.0s: 9.824034512022632
+Average CPU Usage: 9.823393848074542
+Testing with 200 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 18.546918134221798
+CPU usage at point 15.0s: 18.262413474494704
+CPU usage at point 20.0s: 17.856790922121355
+CPU usage at point 25.0s: 17.664405997144218
+CPU usage at point 30.0s: 17.55091017274472
+CPU usage at point 35.0s: 18.39912328244275
+CPU usage at point 40.0s: 17.994168597415033
+CPU usage at point 45.0s: 18.155322906641
+CPU usage at point 50.0s: 17.545776643026002
+Average CPU Usage: 17.997314458916847
+Testing with 300 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 25.064592403846152
+CPU usage at point 15.0s: 25.534185181598062
+CPU usage at point 20.0s: 25.719889825581394
+CPU usage at point 25.0s: 23.8931361003861
+CPU usage at point 30.0s: 25.022098665395614
+CPU usage at point 35.0s: 25.081481166347995
+CPU usage at point 40.0s: 25.668584207992296
+CPU usage at point 45.0s: 25.322705607020968
+CPU usage at point 50.0s: 24.927509326923076
+Average CPU Usage: 25.137131387232404
+Testing with 400 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 29.994218216867473
+CPU usage at point 15.0s: 30.670415452322736
+CPU usage at point 20.0s: 30.77919368932039
+CPU usage at point 25.0s: 29.881474332848136
+CPU usage at point 30.0s: 30.755187384764675
+CPU usage at point 35.0s: 29.580671927307506
+CPU usage at point 40.0s: 30.90420172661871
+CPU usage at point 45.0s: 29.787530120481925
+CPU usage at point 50.0s: 30.039009839259617
+Average CPU Usage: 30.26576696553235
+Testing with 500 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 36.66799820448878
+CPU usage at point 15.0s: 34.37146430678466
+CPU usage at point 20.0s: 36.561566353290445
+CPU usage at point 25.0s: 36.55448347564038
+CPU usage at point 30.0s: 36.360469246231155
+CPU usage at point 35.0s: 37.02713740610916
+CPU usage at point 40.0s: 37.24047367396594
+CPU usage at point 45.0s: 36.705395066600886
+CPU usage at point 50.0s: 36.965648942598186
+Average CPU Usage: 36.4949596306344
+Testing with 600 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 39.24692916666667
+CPU usage at point 15.0s: 41.54035714285714
+CPU usage at point 20.0s: 37.01482613359337
+CPU usage at point 25.0s: 40.385998073217735
+CPU usage at point 30.0s: 40.09230653021442
+CPU usage at point 35.0s: 38.166030605326874
+CPU usage at point 40.0s: 40.20422545629203
+CPU usage at point 45.0s: 37.139577204091566
+CPU usage at point 50.0s: 39.78699701923077
+Average CPU Usage: 39.286360814610056
+Testing with 700 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 44.94992021589794
+CPU usage at point 15.0s: 45.323082623592754
+CPU usage at point 20.0s: 43.89738692682927
+CPU usage at point 25.0s: 41.95251098096633
+CPU usage at point 30.0s: 42.47179020368574
+CPU usage at point 35.0s: 45.0828246628131
+CPU usage at point 40.0s: 45.20499424670892
+CPU usage at point 45.0s: 45.36208914841849
+CPU usage at point 50.0s: 44.51891885205344
+Average CPU Usage: 44.30705754010733
+Testing with 800 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 47.0288427592955
+CPU usage at point 15.0s: 49.118364671814675
+CPU usage at point 20.0s: 56.25347818003914
+CPU usage at point 25.0s: 48.502497672162946
+CPU usage at point 30.0s: 47.47034985192498
+CPU usage at point 35.0s: 45.9986662745098
+CPU usage at point 40.0s: 48.2572741506647
+CPU usage at point 45.0s: 46.002334381139484
+CPU usage at point 50.0s: 49.255458534185934
+Average CPU Usage: 48.654140719526346
+Testing with 900 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 54.63458635247913
+CPU usage at point 15.0s: 49.35051599022005
+CPU usage at point 20.0s: 52.736556149732614
+CPU usage at point 25.0s: 55.826440566959924
+CPU usage at point 30.0s: 52.79162226620484
+CPU usage at point 35.0s: 54.61437739892839
+CPU usage at point 40.0s: 55.30974392523365
+CPU usage at point 45.0s: 54.522506470588226
+CPU usage at point 50.0s: 53.57002994599902
+Average CPU Usage: 53.70626434070509
+Testing with 1000 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 61.85855215686274
+CPU usage at point 15.0s: 60.13418444987775
+CPU usage at point 20.0s: 59.38626440177253
+CPU usage at point 25.0s: 60.11978940657185
+CPU usage at point 30.0s: 57.226550567340894
+CPU usage at point 35.0s: 58.930517652811744
+CPU usage at point 40.0s: 60.40302379072063
+CPU usage at point 45.0s: 57.2462981427175
+CPU usage at point 50.0s: 60.43846883950618
+Average CPU Usage: 59.52707215646464
+Testing with 1100 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 64.99744348253812
+CPU usage at point 15.0s: 63.26612997032641
+CPU usage at point 20.0s: 66.81390689486553
+CPU usage at point 25.0s: 66.60758628515046
+CPU usage at point 30.0s: 65.49240876847291
+CPU usage at point 35.0s: 62.85440688298918
+CPU usage at point 40.0s: 60.59822443665498
+CPU usage at point 45.0s: 65.48352349457059
+CPU usage at point 50.0s: 64.54606843137255
+Average CPU Usage: 64.51774429410452
+Testing with 1200 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 68.81542943469786
+CPU usage at point 15.0s: 61.91205981399902
+CPU usage at point 20.0s: 66.0459827027027
+CPU usage at point 25.0s: 68.19616807785889
+CPU usage at point 30.0s: 66.5720709296606
+CPU usage at point 35.0s: 63.44039657869014
+CPU usage at point 40.0s: 58.931690918016685
+CPU usage at point 45.0s: 68.5393497289305
+CPU usage at point 50.0s: 65.10101120311738
+Average CPU Usage: 65.2837954875193
+Testing with 1300 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 73.98175136747886
+CPU usage at point 15.0s: 63.21625389282103
+CPU usage at point 20.0s: 70.59740936555892
+CPU usage at point 25.0s: 71.74141572008114
+CPU usage at point 30.0s: 70.89945418768919
+CPU usage at point 35.0s: 70.33279584389254
+CPU usage at point 40.0s: 62.434497119757445
+CPU usage at point 45.0s: 75.37944805653709
+CPU usage at point 50.0s: 74.24545451792024
+Average CPU Usage: 70.31427556352628
+Testing with 1400 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 71.8976250764526
+CPU usage at point 15.0s: 66.38446446365023
+CPU usage at point 20.0s: 76.04154081121682
+CPU usage at point 25.0s: 75.37255146022154
+CPU usage at point 30.0s: 77.90688318943627
+CPU usage at point 35.0s: 78.85258077503775
+CPU usage at point 40.0s: 69.34260625946493
+CPU usage at point 45.0s: 77.75472145381121
+CPU usage at point 50.0s: 80.98233724103082
+Average CPU Usage: 74.94836785892468
+Testing with 1500 RPS for 60 seconds, targeting http://java-elastic:8080/db, on container 0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213
+CPU usage at point 10.0s: 74.31056287726358
+CPU usage at point 15.0s: 66.9690361167002
+CPU usage at point 20.0s: 78.09808714357179
+CPU usage at point 25.0s: 76.3595182
+CPU usage at point 30.0s: 92.5567579265224
+CPU usage at point 35.0s: 78.05221720860432
+CPU usage at point 40.0s: 70.71581087065928
+CPU usage at point 45.0s: 80.5036501004016
+CPU usage at point 50.0s: 77.82289489641232
+Average CPU Usage: 77.2653928155706
+Reached target CPU utilization with 1500 RPS
+
+=====Running scenario {'language': 'python', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}=====
+Testing with 100 RPS for 60 seconds, targeting http://python-elastic:8080/db, on container a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2
+CPU usage at point 10.0s: 78.97038149074537
+CPU usage at point 15.0s: 78.90753992015969
+CPU usage at point 20.0s: 74.50020767696908
+CPU usage at point 25.0s: 79.2490853439681
+CPU usage at point 30.0s: 83.8718029029029
+CPU usage at point 35.0s: 81.44829490509491
+CPU usage at point 40.0s: 86.24067687687688
+CPU usage at point 45.0s: 79.590458677275
+CPU usage at point 50.0s: 81.4453438648783
+Average CPU Usage: 80.4693101843189
+Reached target CPU utilization with 100 RPS
+
+=====Running scenario {'language': 'go', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}=====
+Testing with 50 RPS for 60 seconds, targeting http://go-elastic:8080/queries?queries=10, on container 265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41
+CPU usage at point 10.0s: 12.396985556670009
+CPU usage at point 15.0s: 15.169727400703872
+CPU usage at point 20.0s: 12.082435062972294
+CPU usage at point 25.0s: 12.1459303
+CPU usage at point 30.0s: 12.23168535732134
+CPU usage at point 35.0s: 12.227112131802297
+CPU usage at point 40.0s: 12.01423743100853
+CPU usage at point 45.0s: 12.319218494188986
+CPU usage at point 50.0s: 12.206968526897938
+Average CPU Usage: 12.532700029062807
+Testing with 100 RPS for 60 seconds, targeting http://go-elastic:8080/queries?queries=10, on container 265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41
+CPU usage at point 10.0s: 23.113692175668852
+CPU usage at point 15.0s: 21.912190735146023
+CPU usage at point 20.0s: 23.243495577889448
+CPU usage at point 25.0s: 23.618801815431166
+CPU usage at point 30.0s: 23.433296725440808
+CPU usage at point 35.0s: 22.46378504016064
+CPU usage at point 40.0s: 22.959987689202823
+CPU usage at point 45.0s: 23.179630668677728
+CPU usage at point 50.0s: 22.95603867735471
+Average CPU Usage: 22.986768789441356
+Testing with 150 RPS for 60 seconds, targeting http://go-elastic:8080/queries?queries=10, on container 265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41
+CPU usage at point 10.0s: 101.25735672396361
+CPU usage at point 15.0s: 102.12692351447434
+CPU usage at point 20.0s: 101.08383963321445
+CPU usage at point 25.0s: 103.55077707590424
+CPU usage at point 30.0s: 102.46808112244898
+CPU usage at point 35.0s: 100.26110398788491
+CPU usage at point 40.0s: 102.22415477996964
+CPU usage at point 45.0s: 101.64875241935482
+CPU usage at point 50.0s: 100.49837381193126
+Average CPU Usage: 101.67992922990516
+Reached target CPU utilization with 150 RPS
+
+=====Running scenario {'language': 'java', 'configuration': 'otel', 'endpoint': 'db', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}=====
+Testing with 50 RPS for 60 seconds, targeting http://java-otel:8080/db, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 5.715139381854438
+CPU usage at point 15.0s: 5.136815836653387
+CPU usage at point 20.0s: 4.944254627313657
+CPU usage at point 25.0s: 5.0541412057797706
+CPU usage at point 30.0s: 5.043381654135339
+CPU usage at point 35.0s: 4.908521453459432
+CPU usage at point 40.0s: 4.625025200803213
+CPU usage at point 45.0s: 4.584192326856004
+CPU usage at point 50.0s: 4.480762767546043
+Average CPU Usage: 4.943581606044587
+Testing with 100 RPS for 60 seconds, targeting http://java-otel:8080/db, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 9.409777699648417
+CPU usage at point 15.0s: 9.106161007556675
+CPU usage at point 20.0s: 9.354542871485945
+CPU usage at point 25.0s: 9.563685398896137
+CPU usage at point 30.0s: 9.084302102102102
+CPU usage at point 35.0s: 9.193483149448344
+CPU usage at point 40.0s: 9.18265146022155
+CPU usage at point 45.0s: 9.266951084215835
+CPU usage at point 50.0s: 9.047645951417005
+Average CPU Usage: 9.245466747221336
+Testing with 150 RPS for 60 seconds, targeting http://java-otel:8080/db, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 12.579990034877927
+CPU usage at point 15.0s: 12.833780590295147
+CPU usage at point 20.0s: 13.153667871485943
+CPU usage at point 25.0s: 12.302955366949575
+CPU usage at point 30.0s: 12.341036008024073
+CPU usage at point 35.0s: 12.71783599798894
+CPU usage at point 40.0s: 13.503047223611805
+CPU usage at point 45.0s: 13.1214833
+CPU usage at point 50.0s: 14.481301208459213
+Average CPU Usage: 13.0038997335214
+Testing with 200 RPS for 60 seconds, targeting http://java-otel:8080/db, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7

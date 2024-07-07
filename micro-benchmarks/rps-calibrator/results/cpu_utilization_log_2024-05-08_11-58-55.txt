@@ -1,0 +1,200 @@
+RPS, CPU Usage (%)
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'json', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'json', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'db', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'json', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'go', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '6851d3462dc05b942cee31723d914b95d06e5484f834bad6d54b2414012397a7', 'host': 'go-standard'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'db', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'db', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'go', 'configuration': 'otel', 'endpoint': 'db', 'container_id': '2b5744821f00fc2da55a26c303d9f3a53e9ef52d71f275cf96a11093759f3690', 'host': 'go-otel'}
+{'language': 'java', 'configuration': 'standard', 'endpoint': 'updates', 'container_id': '8a4078997129643b3569c28a30a1d07afcdee50b71fdc3eac7b458826d760930', 'host': 'java-standard'}
+{'language': 'python', 'configuration': 'standard', 'endpoint': 'queries', 'container_id': '1df8a07e14f25ce7e8dd7d3c93e82d45a91e103abc2feb2b0f2822ae47339bbc', 'host': 'python-standard'}
+{'language': 'python', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': 'a3eb8215ce64c4afed2ba6975936b59df35ab3c1b6376f1bcc7887390f5579d2', 'host': 'python-elastic'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'queries', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'java', 'configuration': 'otel', 'endpoint': 'json', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}
+{'language': 'java', 'configuration': 'elastic', 'endpoint': 'db', 'container_id': '0de53fb1854819d3efa035c407945157fa3425cd93b1622fdbcec649b14d8213', 'host': 'java-elastic'}
+{'language': 'python', 'configuration': 'otel', 'endpoint': 'queries', 'container_id': 'ca44381d7ea772c7da307d660663a94e6b8f66f021ffd869ecedcb397410800a', 'host': 'python-otel'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'json', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+{'language': 'go', 'configuration': 'elastic', 'endpoint': 'updates', 'container_id': '265d19fa261f52289377ebb0ab4b5b044fe675a0249dfda6cd45d3e58b1c8d41', 'host': 'go-elastic'}
+=====Running scenario {'language': 'java', 'configuration': 'otel', 'endpoint': 'updates', 'container_id': 'f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7', 'host': 'java-otel'}=====
+Testing with 50 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 6.577216062413951
+CPU usage at point 15.0s: 6.078390721649485
+CPU usage at point 20.0s: 6.569191147994467
+CPU usage at point 25.0s: 5.822569508804449
+CPU usage at point 30.0s: 5.864659231490159
+CPU usage at point 35.0s: 6.110062780697563
+CPU usage at point 40.0s: 6.119087427466151
+CPU usage at point 45.0s: 6.148264997545409
+CPU usage at point 50.0s: 6.5641477317554235
+Average CPU Usage: 6.205954401090784
+Testing with 100 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 11.930017755610972
+CPU usage at point 15.0s: 11.614112075848302
+CPU usage at point 20.0s: 12.18126985550573
+CPU usage at point 25.0s: 12.658825957235207
+CPU usage at point 30.0s: 12.59568764382191
+CPU usage at point 35.0s: 12.320266333166582
+CPU usage at point 40.0s: 12.34272512562814
+CPU usage at point 45.0s: 11.887532862190813
+CPU usage at point 50.0s: 12.323805728643215
+Average CPU Usage: 12.206027037516764
+Testing with 150 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 17.369274635861377
+CPU usage at point 15.0s: 17.90331893787575
+CPU usage at point 20.0s: 17.465321052631577
+CPU usage at point 25.0s: 17.87309763700352
+CPU usage at point 30.0s: 17.082909201213347
+CPU usage at point 35.0s: 17.51552698892246
+CPU usage at point 40.0s: 17.654620311714428
+CPU usage at point 45.0s: 16.850199698643898
+CPU usage at point 50.0s: 16.609971889168765
+Average CPU Usage: 17.369360039226123
+Testing with 200 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 21.377503493670886
+CPU usage at point 15.0s: 21.79632654911839
+CPU usage at point 20.0s: 22.139367816091955
+CPU usage at point 25.0s: 22.693440665993947
+CPU usage at point 30.0s: 23.22425065326633
+CPU usage at point 35.0s: 21.73823881644935
+CPU usage at point 40.0s: 22.498579608237065
+CPU usage at point 45.0s: 21.38644410876133
+CPU usage at point 50.0s: 22.030441226747108
+Average CPU Usage: 22.0982881042596
+Testing with 250 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 27.623843245967738
+CPU usage at point 15.0s: 27.078348396793583
+CPU usage at point 20.0s: 26.59070608782435
+CPU usage at point 25.0s: 27.325688096433954
+CPU usage at point 30.0s: 27.79808824120603
+CPU usage at point 35.0s: 30.825097023809523
+CPU usage at point 40.0s: 30.41904782391196
+CPU usage at point 45.0s: 28.037853137651826
+CPU usage at point 50.0s: 23.734000821355234
+Average CPU Usage: 27.71474143055047
+Testing with 300 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 30.227648032290617
+CPU usage at point 15.0s: 27.817199495967742
+CPU usage at point 20.0s: 31.881558471593767
+CPU usage at point 25.0s: 30.648459173387092
+CPU usage at point 30.0s: 28.500320747097422
+CPU usage at point 35.0s: 30.008035577889448
+CPU usage at point 40.0s: 29.079968574297187
+CPU usage at point 45.0s: 30.381081950729012
+CPU usage at point 50.0s: 32.04319404641776
+Average CPU Usage: 30.065274007741113
+Testing with 350 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 31.8822124062031
+CPU usage at point 15.0s: 31.055957365510306
+CPU usage at point 20.0s: 32.50615348133199
+CPU usage at point 25.0s: 34.23873893360161
+CPU usage at point 30.0s: 33.36911077694236
+CPU usage at point 35.0s: 33.373681996974284
+CPU usage at point 40.0s: 34.12653397081027
+CPU usage at point 45.0s: 36.257911546184744
+CPU usage at point 50.0s: 37.09379321018472
+Average CPU Usage: 33.767121520860385
+Testing with 400 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 38.76269476861167
+CPU usage at point 15.0s: 39.769935943775096
+CPU usage at point 20.0s: 38.517747252747256
+CPU usage at point 25.0s: 40.13177161484454
+CPU usage at point 30.0s: 41.431877233720336
+CPU usage at point 35.0s: 39.889524634760704
+CPU usage at point 40.0s: 38.30935841285786
+CPU usage at point 45.0s: 40.856477496274216
+CPU usage at point 50.0s: 38.982912525050104
+Average CPU Usage: 39.62803332029353
+Testing with 450 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 38.001718567103936
+CPU usage at point 15.0s: 42.99178669354839
+CPU usage at point 20.0s: 43.61665082706767
+CPU usage at point 25.0s: 43.4055754421425
+CPU usage at point 30.0s: 42.93877543859649
+CPU usage at point 35.0s: 40.103275907258066
+CPU usage at point 40.0s: 40.80643929648242
+CPU usage at point 45.0s: 42.788988849824214
+CPU usage at point 50.0s: 43.05515570197668
+Average CPU Usage: 41.967596302666706
+Testing with 500 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 47.27969050223769
+CPU usage at point 15.0s: 42.79725233082707
+CPU usage at point 20.0s: 46.24125062282013
+CPU usage at point 25.0s: 44.96602025819265
+CPU usage at point 30.0s: 46.0234859437751
+CPU usage at point 35.0s: 47.27237436932391
+CPU usage at point 40.0s: 46.41732699849171
+CPU usage at point 45.0s: 44.557062537764345
+CPU usage at point 50.0s: 44.944012075848306
+Average CPU Usage: 45.610941737697885
+Testing with 550 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 51.86468753768845
+CPU usage at point 15.0s: 53.632021457489884
+CPU usage at point 20.0s: 53.980601518987335
+CPU usage at point 25.0s: 53.36050571573091
+CPU usage at point 30.0s: 47.84943378582202
+CPU usage at point 35.0s: 50.310142213319985
+CPU usage at point 40.0s: 48.98002981927711
+CPU usage at point 45.0s: 48.59015002493766
+CPU usage at point 50.0s: 51.772199098196396
+Average CPU Usage: 51.14886346349441
+Testing with 600 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 55.02757523905385
+CPU usage at point 15.0s: 57.61170025290845
+CPU usage at point 20.0s: 57.745564473684205
+CPU usage at point 25.0s: 51.027502911646586
+CPU usage at point 30.0s: 51.35843597776655
+CPU usage at point 35.0s: 55.72511983805668
+CPU usage at point 40.0s: 56.734549974937345
+CPU usage at point 45.0s: 50.526307214428854
+CPU usage at point 50.0s: 55.32672032274332
+Average CPU Usage: 54.56483068946954
+Testing with 650 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 58.54300564231738
+CPU usage at point 15.0s: 56.07070324189526
+CPU usage at point 20.0s: 54.30469466334165
+CPU usage at point 25.0s: 53.43671888888889
+CPU usage at point 30.0s: 53.55634297148575
+CPU usage at point 35.0s: 61.34552613693154
+CPU usage at point 40.0s: 61.092731422825544
+CPU usage at point 45.0s: 58.56832064128257
+CPU usage at point 50.0s: 62.69824195663137
+Average CPU Usage: 57.735142840622224
+Testing with 700 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 64.4049969727548
+CPU usage at point 15.0s: 64.99365120724346
+CPU usage at point 20.0s: 60.524790327455925
+CPU usage at point 25.0s: 65.62868816449348
+CPU usage at point 30.0s: 63.82904488977956
+CPU usage at point 35.0s: 62.838258463083875
+CPU usage at point 40.0s: 59.170233
+CPU usage at point 45.0s: 62.38063835341365
+CPU usage at point 50.0s: 60.11947808287569
+Average CPU Usage: 62.65441994012227
+Testing with 750 RPS for 60 seconds, targeting http://java-otel:8080/updates, on container f2ed7dd5bf6ddb9897b988ff68e552cba3b0fdb085274b4a2fa3a46499b0aaf7
+CPU usage at point 10.0s: 66.3753476861167
+CPU usage at point 15.0s: 65.68411604814443
+CPU usage at point 20.0s: 65.99471396984924
+CPU usage at point 25.0s: 65.49074041061593
+CPU usage at point 30.0s: 64.39548216976394
+CPU usage at point 35.0s: 60.75183087719298
+CPU usage at point 40.0s: 57.42282871435718
